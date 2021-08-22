@@ -1,0 +1,95 @@
+.titleZone {
+  background-image: url("/img/cover.jpg");
+  background-image: linear-gradient(to bottom, rgba(201, 198, 198, 0.7) 0% 20%, rgb(228, 228, 241) 100%), url("/img/cover.jpg");
+  height: 400px;
+  background-repeat: no-repeat; 
+  position:relative;
+  background-size: cover; 
+}
+
+body {
+  background-color: rgba(228, 228, 241, 0.925);
+}
+
+#baseFrame {
+    height:800px;
+    width:100%; 
+    border:none;
+}
+
+
+.mainnav {
+  background-color: rgba(228, 228, 241, 0.925);
+}
+
+.mainnav a {
+  background-color: rgba(228, 228, 241, 0.925);
+  border-radius: 5px;
+}
+
+
+.mainnav a:hover {
+    text-decoration: black;
+    background-color: lightgray;
+}
+
+.mainnav a.position {
+    background-color: lightslategray;
+    color:black;
+}
+
+#markMode {
+    background-color: #ddd;
+    border: none;
+    color: black;
+  }
+  
+#markMode:hover {
+    background-color: #0b0425;
+    color: white;
+  }
+
+  input[type=text], textarea { 
+    border: 1px solid rgba(204, 204, 204, 0.603); 
+    background-color: #c3c7c9b0;
+    color: rgba(170, 121, 121, 0.514);
+  }
+
+  label {
+    color: black;
+}
+  
+  input[type=submit] {
+    background-color: #04AA6D;
+    color: white;
+  
+  }
+  
+  input[type=submit]:hover {
+    background-color: #303163;
+    transition: 0.5s;
+  }
+  
+  .contactForm {
+    background-color: #dee7dde5;
+  }
+
+  i.fa {
+    color: rgba(33, 42, 160, 0.842);
+    text-shadow: 1px 1px 1px rgb(71, 68, 68);
+    font-size: larger;
+    filter: drop-shadow(0 0 3px rgba(130, 97, 173, 0.7));
+
+  }
+
+  i.fa:hover {
+    color:rgb(14, 4, 48);
+    font-size: larger;
+    filter: none;
+  }
+  
+  .closeBtn {
+    color: rgb(59, 20, 20);
+    font-size: 35px;
+    cursor: pointer;
+  }

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang=en>
+    <head>
+
+    <title>Exhibition 1</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+    <link id="styleMode" rel="stylesheet" href="css/brightmode.css">
+    <link rel="stylesheet" href="css/base.css">
+    <script src="app.js"></script>
+
+
+    <style>
+        body {font-family: 'Courier New', Courier, monospace;}
+
+       
+    </style>
+    </head>
+  <body>
+
+    <div class="titleZone">
+    <h1><br><br><br>Ivaylo Atanasov</h1>
+      <h4>photographer</h4>
+    </div>
+    <div class="mainnav" id="mainNav">
+        
+        <a class="button position" id="base" href="base.html" target="baseFrame">Home</a>
+        <a href="stories.html" class="button" target="baseFrame">Stories</a>
+        <a href="nature.html" class="button" target="baseFrame">Nature</a>
+        <a href="industrial.html" class="button" target="baseFrame">Industrial</a>
+        <a href="events.html" class="button" target="baseFrame">Events</a>
+        <a href="contact.html" class="button" target="baseFrame">Contact</a>
+    </div id="modeSpace">
+        <button id="markMode">Dark Mode</button>
+        </div>
+      </div>
+
+    <iframe id="baseFrame" name="baseFrame" src="base.html" style="height:800px; width:100%; border:none"></iframe>
+
+      <script>
+        window.onload = function() {
+          var modeButton = document.getElementById("markMode");
+          modeButton.addEventListener("click", changeMode);
+        }
+
+        var navButtons = document.getElementById("mainNav");
+        var buttons = navButtons.getElementsByClassName("button");
+
+        for (var i = 0; i < buttons.length; i++) {
+          buttons[i].addEventListener("click", function() {
+          var current = document.getElementsByClassName("position");
+          current[0].className = current[0].className.replace(" position", "");
+          this.className += " position";
+         });
+}
+      </script>
+
+
+<footer style="text-align: center; margin-top: 60px;">
+  <a id="footer" href="https://www.facebook.com/nusquama.photography"><i class="fa fa-facebook-official"></i></a>
+  <a id="footer" href="https://www.instagram.com/endure.entropy/"><i class="fa fa-instagram"></i></a>
+  <a id="footer" href="https://www.youtube.com/channel/UCOgg31gf_vDj_2sCbVDRb6w"><i class="fa fa-youtube"></i></a>
+  <p>
+    <h4> &#169 2021</h4>
+  </p>
+</footer>
+  </body>
+
+
+
+</html>

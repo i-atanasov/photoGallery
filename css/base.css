@@ -1,0 +1,130 @@
+
+
+body {
+    font-size: large;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+
+h1, h2 {
+    color: rgb(54, 49, 49);
+    text-align: center;
+    margin-top: 0px;
+    letter-spacing: 8px;
+    font-style: bold;
+}
+
+h4 {
+    color: rgb(54, 49, 49);
+    text-align: center;
+    margin: 40px;
+    text-transform: uppercase; 
+}
+
+
+.mainnav {
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    overflow: hidden;
+    float: left;
+    width: 70%;
+    padding-left: 60px;
+    margin-bottom: 30px;
+
+  }
+  
+
+.mainnav a {
+    font-family: 'Courier New', Courier, monospace;
+    text-decoration: none;
+    padding: 15px 15px;
+    font-size: 16px;
+  }
+  
+  #modeSpace {
+    float: right;
+    width: 20%;
+    text-align: justify;
+    padding: 15px 5px;
+  }
+  
+  #markMode {
+    border: none;
+    border-radius: 5px;
+    padding: 10px 32px;
+    text-align: center;
+    font-size: 14px;
+    margin: 35px 2px;
+    transition: 0.5s;
+  }
+
+  
+  @media screen and (max-width: 800px) {
+
+    .mainnav {
+      flex-direction: column;
+      text-align: center;
+      max-width: 60%;
+      }
+  
+    .column {
+      flex: 50%;
+      max-width: 50%;
+    }
+  
+    #modeSpace {
+      float: right;
+      width: 25%;
+      text-align: center;
+      font-size: 14px;
+      }
+  
+  }
+  
+  @media screen and (max-width: 600px) {
+
+    .mainnav {
+      flex-direction: column;
+      text-align: center;
+      max-width: 50%;
+      }
+    
+    .column {
+      flex: 100%;
+      max-width: 100%;
+    }
+  
+    #modeSpace {
+      float: right;
+      width: 20%;
+      text-align: center;
+      font-size: 14px;
+      }
+  }
+  
+  
+  
+  input[type=text], textarea {
+    width: 100%;
+    padding: 10px; 
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 10px; 
+    margin-bottom: 10px; 
+    resize: vertical;
+  }
+  
+  input[type=submit] {
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .contactForm {
+    border-radius: 5px;
+    padding: 20px;
+  }
+

@@ -1,0 +1,59 @@
+* {
+  box-sizing: border-box;
+}
+
+
+.colGal {
+    float: left;
+    padding: 10px;
+    width: 20%;
+  }
+
+  
+.colGal img {
+    filter: grayscale(100%);
+    cursor: pointer; 
+    opacity: 0.7;
+    height: 180px;
+    object-fit:cover;
+
+  }
+
+.colGal img:hover {
+  opacity: 1;
+  filter: none;
+}
+
+.rowGal:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.pictureFrame {
+  position: relative;
+  display: none; 
+}
+
+#fullImg {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 70%;
+  max-height: 600px;
+  border-radius: 5px;
+  border: 2px;
+  border-color: cadetblue;
+  
+}
+
+.closeBtn {
+  position: absolute;
+  top: 0px;
+  right: 220px;
+  color: rgb(59, 20, 20);
+  font-size: 35px;
+  cursor: pointer;
+}
+
+

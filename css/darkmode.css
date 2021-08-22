@@ -1,0 +1,107 @@
+.titleZone {
+  background-image: url("/img/cover.jpg");
+  background-image: linear-gradient(to bottom, rgba(162, 166, 224, 0.7) 0% 20%, rgb(1, 1, 17)  100%), url("/img/cover.jpg");
+  height: 400px;
+  background-repeat: no-repeat; 
+  position: relative;
+  background-size: cover; 
+}
+
+body {
+    background-color: rgb(1, 1, 17);
+}
+
+#baseFrame {
+    height:800px;
+    width:100%; 
+    border:none;
+}
+
+h1, h2 {
+    color: whitesmoke;
+    text-decoration: rgb(170, 132, 76);
+    
+}
+
+a {
+    color: blanchedalmond;
+}
+
+h4 { 
+    color: blanchedalmond;
+
+}
+
+.mainnav {
+    background-color: rgb(1, 1, 17);
+    }
+    
+.mainnav a {
+    background-color: rgb(1, 1, 17);
+    border-radius: 5px;
+}
+
+.mainnav a:hover {
+    text-decoration: coral;
+    background-color: darkred;
+}
+
+.mainnav a.position {
+    background-color: rgb(58, 66, 73);
+    color:white;
+}
+
+#markMode {
+    background-color: rgb(63, 46, 46);
+    color: wheat;
+}
+  
+#markMode:hover {
+    background-color: white;
+    color: navy;
+  }
+
+  label {
+      color: white;
+  }
+
+  input[type=text], textarea { 
+    border: 1px solid #ccc; /* Gray border */
+    background-color: #0e3527;
+    color: white;
+  
+  }
+  
+  input[type=submit] {
+    background-color: #023a25;
+    color: white;
+  
+  }
+  
+  input[type=submit]:hover {
+    background-color: #0f2510;
+  }
+  
+  .contactForm {
+    background-color: #361919;
+  }
+
+  i.fa {
+    color: rgba(46, 145, 37, 0.774);
+    text-shadow: 1px 1px 1px rgb(71, 68, 68);
+    font-size: larger;
+    filter: drop-shadow(0 0 3px rgba(23, 206, 102, 0.7));
+
+  }
+  
+  i.fa:hover {
+    color: rgba(140, 233, 152, 0.842);
+    font-size: larger;
+    filter:none;
+  }
+
+  .closeBtn {
+    color: bisque;
+    font-size: 35px;
+  cursor: pointer;
+  }
